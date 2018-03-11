@@ -164,7 +164,7 @@ class App extends React.Component {
           <div className={Style.headDiv} >
             <button className={CommonStyle.btn + ' ' + Style.btn} onClick={this.doDiff} > 开始比较 </button>
             <a href="javascript:void(0)" onClick={this.loadDemo} > 查看示例 </a>
-            <a href="./readme.md" target="_blank" > 使用说明 </a>
+            <a href="https://github.com/codingfishman/image-diff/blob/master/help.md" target="_blank" > 使用说明 </a>
             {this.getLoadingDiv()}
             {this.getDiffPercentDiv()}
           </div>
