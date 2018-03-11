@@ -37,8 +37,8 @@
     "webpack": "^1.12.9"
   },
   "scripts": {
-    "build": "set NODE_ENV=production && webpack --config webpack.config.js --process --colors",
-    "watch": "set NODE_ENV=test && webpack --config webpack.config.js --process --colors --watch"
+    "build": "NODE_ENV=production webpack --config webpack.config.js --process --colors",
+    "watch": "NODE_ENV=test webpack --config webpack.config.js --process --colors --watch"
   },
   "repository": {
     "type": "git",
